@@ -5,14 +5,14 @@ Run VLC as root on  Linux.
 
 For security reasons, VLC does not run on root by default.<br/>
 However, if you still want to run VLC as root,
-You can follow these 'One-Time' Steps:
+You can follow these '_One-Time_' Steps:
 
 0. **check whether VLC can run as root**, via Terminal or FileManager
 
 1. **Get the Absolute path to our VLC** using 'which' command:<br/>`which vlc`
 	<br/>in my case and probably Yours, the path is **/usr/bin/vlc**
 
-2. **Backup the vlc** (optional in case you trust yourself)
+2. **Backup the vlc** (optional in case you trust yourself)<br/>
 		`cp /usr/bin/vlc /usr/bin/vlc.bkp`
 
 3. **Open the vlc with the hexeditor**<br/>
