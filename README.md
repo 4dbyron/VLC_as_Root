@@ -9,14 +9,13 @@ You can follow these 'One-Time' Steps:
 
 0. **check whether VLC can run as root**, via Terminal or FileManager
 
-1. **Get the Absolute path to our VLC** using 'which' command
-		`which vlc`
-	in my case and probably Yours, the path is **/usr/bin/vlc**
+1. **Get the Absolute path to our VLC** using 'which' command:<br/>`which vlc`
+	<br/>in my case and probably Yours, the path is **/usr/bin/vlc**
 
 2. **Backup the vlc** (optional in case you trust yourself)
 		`cp /usr/bin/vlc /usr/bin/vlc.bkp`
 
-3. **Open the vlc with the hexeditor**
+3. **Open the vlc with the hexeditor**<br/>
 		`hexeditor /usr/bin/vlc`
 
 4. **Search for 'geteuid'**<br/>
