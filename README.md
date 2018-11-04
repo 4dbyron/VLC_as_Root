@@ -49,7 +49,7 @@ In case You change your mind about running vlc as root,<br/>replace the **getppi
 			`cp /usr/bin/vlc.bkp /usr/bin/vlc`
 
 <hr/>
-## **Note:**
-- Upon upgrading VLC, You will need to ReDo steps `1-6`.
-- hexeditor comes preinstalled in most Linux/Unix-Like distributions.
+## Note: <br/>
+- Upon upgrading VLC, You will need to ReDo steps `1-6`.<br/>
+- hexeditor comes preinstalled in most Linux/Unix-Like distributions.<br/>
 - All the hexeditor commands / shortcuts used here are displayed at the bottom of the hexeditor screen whenever applicable.
